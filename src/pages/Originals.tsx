@@ -12,7 +12,7 @@ type Artwork = {
 };
 
 // TODO: Replace these placeholder entries with your actual artwork data
-// Upload your 16 images to the public/originals/ folder and update the paths below
+// Upload your 26 images to the public/originals/ folder and update the paths below
 const initialArtworks: Artwork[] = [
   { id: 1, title: "White Royal Bengal", image: "/originals/original-1.jpg", category: "Wildlife"},
   { id: 2, title: "Red Panda", image: "/originals/original-2.jpg", category: "Wildlife"  },
@@ -30,6 +30,16 @@ const initialArtworks: Artwork[] = [
   { id: 14, title: "Leopard Trails",  image: "/originals/original-14.jpg", category: "Wildlife" },
   { id: 15, title: "Elephant and Cub",  image: "/originals/original-15.jpg", category: "Wildlife"},
   { id: 16, title: "Red Panda",  image: "/originals/original-16.jpg", category: "Wildlife" },
+  { id: 17, title: "Tiger", image: "/originals/original-17.jpg", category: "Wildlife" },
+  { id: 18, title: "Snow Leopard", image: "/originals/original-18.jpg", category: "Wildlife" },
+  { id: 19, title: "Leopard", image: "/originals/original-19.jpg", category: "Wildlife" },
+  { id: 20, title: "Peregrine Falcon", image: "/originals/original-20.jpg", category: "Birds" },
+  { id: 21, title: "Great Hornbill", image: "/originals/original-21.jpg", category: "Birds" },
+  
+  { id: 22, title: "Gryfalcon", image: "/originals/original-23.jpg", category: "Birds" },
+  { id: 23, title: "Bull", image: "/originals/original-24.jpg", category: "Wildlife" },
+  { id: 24, title: "Tiger", image: "/originals/original-25.jpg", category: "Wildlife" },
+  { id: 25, title: "Red Panda", image: "/originals/original-26.jpg", category: "Wildlife" },
 ];
 
 const categories = ["All", "Wildlife", "Flowers", "Birds"] as const;
